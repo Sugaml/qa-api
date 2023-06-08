@@ -1,0 +1,2 @@
+dsn: "postgresql://root:secret@localhost:5432/postgres?sslmode=disable"
+jwt_signing_key: "LxsKJywDL5O5PvgODZhBH12KE6k2yL8E"
