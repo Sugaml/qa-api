@@ -59,7 +59,6 @@ func main() {
 		logger.Error(err)
 		os.Exit(-1)
 	}
-
 }
 
 // buildHandler sets up the HTTP routing and builds an HTTP handler.
