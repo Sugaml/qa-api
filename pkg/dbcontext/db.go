@@ -36,7 +36,7 @@ func (db *DB) DB() *gorm.DB {
 // // With returns a Builder that can be used to build and execute SQL queries.
 // // With will return the transaction if it is found in the given context.
 // // Otherwise it will return a DB connection associated with the context.
-// func (db *DB) With(ctx context.Context) gorm.Builder {
+// func (db *DB) With(ctx context.Context) gorm {
 // 	if tx, ok := ctx.Value(txKey).(*gorm.Tx); ok {
 // 		return tx
 // 	}
